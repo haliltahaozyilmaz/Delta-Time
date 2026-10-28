@@ -54,4 +54,4 @@ A neon-themed 2D roguelike top-down shooter developed for **İSTÜN Game Jam**. 
 
 - **Engine:** Unity
 - **Language:** C#
-- **Platforms:** PC (Windows Standalone)[cite: 5] / WebGL *(Android support coming soon)*
+- **Platforms:** PC (Windows Standalone) / WebGL (Android support coming soon)
