@@ -4,7 +4,7 @@ A neon-themed 2D roguelike top-down shooter developed for **İSTÜN Game Jam**. 
 
 <img width="862" height="502" alt="Delta Time Banner" src="https://github.com/user-attachments/assets/8a4ff5e7-4430-4d63-977a-93413f1bbbe9" />
 
-> 🕹️ **Play / Download:** [Itch.io Page]([https://itch.io](https://ozyilmaz.itch.io/delta-time))
+🕹️ **Play / Download:** [Itch.io Page]([https://itch.io](https://ozyilmaz.itch.io/delta-time))
 
 
 
