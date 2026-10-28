@@ -1,42 +1,38 @@
 # Delta Time ⏱️
 
-A neon-themed 2D roguelike top-down shooter developed for **İSTÜN Game Jam**. Features dynamic time-scaling mechanics, procedural projectile ricochets, and a system upgrade loop[cite: 5].
+A neon-themed 2D roguelike top-down shooter developed for **İSTÜN Game Jam**. Features dynamic time-scaling mechanics, procedural projectile ricochets, and a system upgrade loop.
 
 <img width="862" height="502" alt="Delta Time Banner" src="https://github.com/user-attachments/assets/8a4ff5e7-4430-4d63-977a-93413f1bbbe9" />
-
-🕹️ **Play / Download:** [Itch.io Page]([https://itch.io](https://ozyilmaz.itch.io/delta-time))
-
-
 
 ---
 
 ## 🎮 Game Overview & Mechanics
 
-**Delta Time** combines top-down shooter dynamics with a tactical time-scaling rule: **time only moves when the player moves**[cite: 5]. Players navigate an arena filled with geometric viruses, collect "Bits", and upgrade their setup to survive[cite: 5].
+**Delta Time** combines top-down shooter dynamics with a tactical time-scaling rule: **time only moves when the player moves**. Players navigate an arena filled with geometric viruses, collect "Bits", and upgrade their setup to survive.
 
-- **Input-Driven Time Scale:** Game time dynamically scales based on player movement vectors, allowing precise aiming and tactical decision-making[cite: 5].
-- **Weapon & Physics Mechanics:** Includes ricocheting bullets, multishots, and time-freezing power-ups[cite: 5].
-- **In-Game Shop & Upgrades:** Spend collected "Bits" between waves to overclock system stats and unlock abilities[cite: 5].
+- **Input-Driven Time Scale:** Game time dynamically scales based on player movement vectors, allowing precise aiming and tactical decision-making.
+- **Weapon & Physics Mechanics:** Includes ricocheting bullets, multishots, and time-freezing power-ups.
+- **In-Game Shop & Upgrades:** Spend collected "Bits" between waves to overclock system stats and unlock abilities.
 
 ---
 
 ## 🛠️ Technical & Architecture Highlights
 
-- **Custom Time Management:** Overridden delta-time calculation logic bound directly to movement input instead of fixed framerate updates[cite: 5].
+- **Custom Time Management:** Overridden delta-time calculation logic bound directly to movement input instead of fixed framerate updates.
 - **Event-Driven Shop System:** Decoupled upgrade system handling passive stat adjustments and active modifiers dynamically.
 - **Object Pooling:** Efficient spawning and recycling for high-density enemy waves and projectile physics.
-- **Rapid Prototyping:** Built under Game Jam time constraints with a focus on core loop stability and visual feedback[cite: 5].
+- **Rapid Prototyping:** Built under Game Jam time constraints with a focus on core loop stability and visual feedback.
 
 ---
 
 ## 🚧 Development Status & Future Roadmap
 
-> **Note:** The core gameplay loop and mechanics are complete and fully functional[cite: 5]. The project is currently receiving active updates and feature expansions.
+> **Note:** The core gameplay loop and mechanics are complete and fully functional. The project is currently receiving active updates and feature expansions.
 
 ### 📋 Planned Features & Updates
-- [x] Core time-scaling movement and shooting engine[cite: 5]
-- [x] In-game shop & system upgrade loops[cite: 5]
-- [x] Basic enemy types & ricochet mechanics[cite: 5]
+- [x] Core time-scaling movement and shooting engine
+- [x] In-game shop & system upgrade loops
+- [x] Basic enemy types & ricochet mechanics
 - [ ] **Android / Mobile Port:** On-screen virtual joystick & touch control UI adaptation
 - [ ] Additional enemy archetypes & boss encounters
 - [ ] Expanded shop items, weapons, and passive perks
